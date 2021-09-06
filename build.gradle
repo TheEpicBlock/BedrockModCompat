@@ -25,7 +25,7 @@ dependencies {
 	implementation 'org.geysermc.platform:GeyserMC_Geyser-Fabric_java-1.17:1.4.0-SNAPSHOT'
 
 	//PolyMC
-	modImplementation "com.github.TheEpicBlock:PolyMc:3.2.0"
+	modImplementation "com.github.TheEpicBlock:PolyMc:3.3.0"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
