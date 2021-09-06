@@ -4,6 +4,11 @@
   "package": "com.github.olivermakescode.bedrockmodcompat.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "ComponentItemDataImplementation",
+    "ItemMappingsBuilderAccessor",
+    "MixinItemMappings",
+    "MixinItemMappings$MixinItemMappingsBuilder",
+    "populators.MixinItemRegistryPopulator"
   ],
   "injectors": {
     "defaultRequire": 1
